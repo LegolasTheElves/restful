@@ -132,7 +132,7 @@ class MeetingController extends Controller
             ], 404);
         }
         $meeting->view_meeting = [
-          'href' => '/api/v1/meeting' . $meeting->id,
+          'href' => '/api/v1/meeting/' .$meeting->id,
             'method' => 'GET'
         ];
         
